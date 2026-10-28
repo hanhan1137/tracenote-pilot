@@ -1,0 +1,38 @@
+name: Pilot fit check / 试点适配咨询
+description: Discuss a Hermes connection diagnostic pilot using non-sensitive information.
+title: "[Pilot] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This issue is public. Share only a general problem, OS, and Hermes version.
+        Do not post contact details, server addresses, logs, conversations, tool data, or credentials.
+        此处公开可见。具体私有环境咨询请发邮件至 3670922501@qq.com。
+        This is an initial fit discussion, not an order or a payment request.
+  - type: input
+    id: environment
+    attributes:
+      label: OS and Hermes version / 系统与版本
+      placeholder: "Example: Ubuntu; Hermes version unknown"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: One general problem / 一个待解决的现象
+      description: Describe the symptom and your current workaround without private content.
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: What would a useful diagnosis answer? / 希望体检回答什么
+    validations:
+      required: true
+  - type: checkboxes
+    id: public-awareness
+    attributes:
+      label: Public information check / 公开信息核对
+      options:
+        - label: I have not included private content or credentials. 我未填写私人内容或凭据。
+          required: true
