@@ -4,7 +4,7 @@
 
 TraceNote 把 Agent 的接入状态与运行元数据整理成可阅读、可复核的诊断报告。现在开放小范围 **Hermes 单机接入体检试点**：先帮你分清配置、采集器、入库记录和报告分别到了哪一步。
 
-**[咨询试点 →](mailto:3670922501@qq.com?subject=TraceNote%20pilot)** · 联系邮箱：3670922501@qq.com
+**[公开试点咨询 →](https://github.com/hanhan1137/tracenote-pilot/issues/new/choose)** · [邮箱咨询](mailto:3670922501@qq.com?subject=TraceNote%20pilot)：3670922501@qq.com
 
 > 当前为作者自用系统发展出的协助式试点。本仓库是服务介绍与反馈入口，不是可一键安装的开源发行包。
 
@@ -52,7 +52,7 @@ TraceNote 把 Agent 的接入状态与运行元数据整理成可阅读、可复
 
 ## 怎样开始
 
-发邮件到 **3670922501@qq.com**，写下以下信息即可：
+可以使用[公开试点咨询表](https://github.com/hanhan1137/tracenote-pilot/issues/new/choose)，或发邮件到 **3670922501@qq.com**，写下以下信息即可：
 
 1. 操作系统、Hermes 版本，以及是否已经常驻运行。
 2. 最想排查的一个现象，以及你目前怎样处理。
@@ -78,4 +78,4 @@ TraceNote separates source configuration, collector health, historical/recent in
 
 This repository is an introduction and feedback channel, not a self-serve software release. The initial pilot is scoped to one machine and one source. A reference price of CNY 299 is subject to confirming scope, compatibility, delivery, and timing before paid work begins. It does not include automatic repair, grading task outputs, or complete billing.
 
-For an initial fit discussion, email **3670922501@qq.com** with your OS, Hermes version, and one troubleshooting problem. Please do not send conversations, task content, credentials, private logs, or tool arguments/outputs. The sample above is illustrative; the self-use case is not a customer success story.
+For an initial fit discussion, use the [public fit-check form](https://github.com/hanhan1137/tracenote-pilot/issues/new/choose) for non-sensitive questions, or email **3670922501@qq.com** with your OS, Hermes version, and one troubleshooting problem. Please do not send conversations, task content, credentials, private logs, or tool arguments/outputs. The sample above is illustrative; the self-use case is not a customer success story.
